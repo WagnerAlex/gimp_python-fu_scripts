@@ -2,7 +2,9 @@
 Python Scripts for Astrophotography 
 
 ## ColorizeLayers.py
-Script to create a colorized rgb image from 3 greyscale layers. 
+Script to create a colorized rgb image from 3 greyscale layers.
+Copy file to plugins folder. (example: C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins)
+The Script will be in "Filters/Layers/"-Menu
 
 ### Workflow: 
 Capture FITS from DSLR and stack in DSS. 
@@ -15,3 +17,5 @@ Run script to rename layers, add color tags, change mode to screen, convert and 
 
 This script is experimental and still work in progress.
 Also, it's my first day using python-fu in GIMP ;)
+
+
