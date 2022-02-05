@@ -8,7 +8,9 @@ The Script will be in "Filters/Layers/"-Menu
 
 ### Workflow: 
 Capture FITS from DSLR and stack in DSS. 
-Save DSS Output as FITS and stretch the image in FITS-Liberator.
+Save DSS Output as FITS (16Bit/K and option "do not apply settings on image")
+Next, stretch the image in FITS-Liberator.
+For stretching I use ArcSinh(x) with standard parameters (no Auto scaling).
 Save all 3 image-planes from FITS-Liberator to tif files: plane 1 = red.tif, plane 2 = green.tif plane 3 = blue.tif
 
 Open all 3 images in GIMP using "open as layers", so you have one greyscale image with the 3 layers.
