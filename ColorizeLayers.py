@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # colorize function (drawable, hue in degrees, saturation in percent, lightness in percent)
-## hue color in degrees is 360/number from gimp colorize menu. 
+## hue color in degrees is 360*hue-number from gimp colorize menu. Example green: 0/255/0 -> Hue 0.3333 -> *360=120
 ## 100 saturation is percent and 1.00 in gimp colorize menu.
 ## 0 lightness is 0 percent plus/minus
 
